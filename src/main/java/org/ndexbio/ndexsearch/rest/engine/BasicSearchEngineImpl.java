@@ -620,7 +620,6 @@ public class BasicSearchEngineImpl implements SearchEngine {
 					sqr.setImageURL(qRes.getImageURL());
 					sqr.getDetails().put("PValue", Double.valueOf(qRes.getpValue()));
 					sqr.getDetails().put("similarity", Double.valueOf(qRes.getSimilarity()));
-					System.out.println(sqr.getDetails());
 					sqResults.add(sqr);
 				}
 			}
